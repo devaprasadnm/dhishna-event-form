@@ -1,123 +1,124 @@
 
-body
-{
-  background-color: #E4F9F5 !important;
-  background-image: url("https://cdn.pixabay.com/photo/2016/01/24/18/17/wall-1159348_960_720.jpg");
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ <head>
+   <title> ⒹHISHNA Events </title>
 
-}
+   <!-- Meta Data -->
+  <meta charset ="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Rohith, Devaprasad">
 
-h1
-{
-  color:  #004445;
-  width: 40%;
-     margin-left: 25rem;
-     text-align: center;
- font-family: 'Sacramento', cursive;
-}
-.header
-{
+  <!-- Reference -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="images\favicon.ico">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-  font-family: 'Ubuntu';
-  text-align: center;
-  height: 10%;
-}
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+ </head>
 
-/* center Division */
+ <body>
 
-.centre-1
-{
-  border: solid #DCDCDC 1px;
-  border-radius: 2%;
-  margin: 4rem;
-  margin-bottom: 3rem;
-  width: 500px;
-  padding: 5%;
-  background-color: #ffffff !important;
-}
+   <!-- Navbar -->
 
-.text
-{
-  position:absolute;
-  left: 5rem;
-background-color: #e4f9ff;
-color: #11999E;
-}
-img{
-  width: 4rem;
-}
-.logo{
-  width: 20rem;
-   float: right;
- margin-right: 20%;
- margin-top: 10%;
- border-radius: 50%;
- position:relative;
-}
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="https://dhishna.org" target="_blank">
+    <img src="images/dhishna logo.jpg" width="43" height="43" class="d-inline-block align-top" alt="">
+    <h1> DHISHNA EVENTS</h1>
+  </a>
+</nav>
 
-.centre-2
-{
-  border: solid #DCDCDC 1px;
-  border-radius: 2%;
-  margin: 4rem;
-  margin-top: 2rem;
-  width: 500px;
-  padding: 5%;
-  background-color: #ffffff !important;
-}
-
-.button
-{
-  position: relative;
-  left: 30%;
-  margin-top: 6%;
-}
-
-/* Foot-Division */
-
-.footer
-{
-  text-align:center;
-  background-color: #e4f9ff !important;
-  margin-top: 20px;
-  padding: 30px ;
-  font-family: "Ubuntu";
-}
-
-.pics
-{
-  position: static;
-  right: 0.6rem;
-
-}
-
-.footer-link
-{
-  margin-left: 5px;
-
-}
+   <!-- Head Division -->
 
 
+    <!-- Centre Division 1 -->
 
-.twitter:hover
-{
-  width: 3.5rem;
-  height: 3.5rem;
-}
+    <div class="container">
+  <div class="row">
+    <div class="col-sm">
 
-.insta:hover
-{
-  width: 3.5rem;
-  height: 3.5rem;
-}
+      <div class="centre-1">
+       <form action="mailto:rohithmaddz7@gmail.com" method="post" enctype="text/plain">
+         <div class="form-row">
+          <div class="col">
 
-.fb:hover
-{
-  width: 3.5rem;
-  height: 3.5rem;
-}
+          <label> Name: </label>
+          <input type="text" class="form-control" placeholder="ex:-John"  name="Name-> " aria-describedby="inputGroupPrepend3" required>
+          <br>
 
 
-.copyright
-{
-  margin-bottom: 0;
-}
+          <label> Caption: </label>
+          <input type="text" class="form-control" placeholder="Your Comments" name="Caption-> " aria-describedby="inputGroupPrepend3" required>
+          <br>
+
+          <label> Description: </label><br>
+          <textarea name="Description-> " class="form-control"  rows="10" cols="40"  > </textarea>
+          <br>
+
+          <label> Is registration </label>
+          <select class="select form-control">
+          <option selected>open</option>
+          <option> closed </option>
+        </select>
+
+          </div>
+        </div>
+      </div>
+
+        <!-- Centre Division 2 -->
+
+        <h3 class="text"> Coordinator </h3><br>
+
+      <div class="centre-2">
+
+         <label> Name: </label>
+         <input type="text" class="form-control" placeholder="Coordinator's Name" name="Name of Coordinator " aria-describedby="inputGroupPrepend3" required>
+         <br>
+
+         <label> Mob No: </label>
+         <input type="tel" class="form-control" placeholder="ex +91 1234567890" name="Mobile No " aria-describedby="inputGroupPrepend3" required>
+         <br>
+
+         <label> image: </label>
+         <input type="file" name="image" accept="image/jpeg">
+         <br>
+
+         <input type="submit" class="button btn btn-primary" >
+
+        </form>
+      </div>
+
+    </div>
+    <div class="col-sm">
+
+      <div class="header">
+        <img class="logo" src="images/dhishna logo.jpg" alt="logo">
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+     <!-- Foot-Division -->
+     <div class="footer">
+       <div class="pics">
+       <a class="footer-link" title="DHISHNA-2020 twitter" href="https://twitter.com/" target="_blank"><img class="twitter" src="images/twitter.png" alt="twitter"></a>
+       <a class="footer-link" title="DHISHNA-2020 instagram" href="https://www.instagram.com/dhishna.cusat/" target="_blank"><img class="insta" src="images/instagram.png" alt="instagram"></a>
+       <a class="footer-link" title="DHISHNA-2020 facebook" href="https://www.facebook.com/dhishna.cusat/" target="_blank"><img class="fb" src="images/facebook.png" alt="facebook"></a>
+
+     </div>
+       <p class="copyright">© DHISHNA 2020.</p>
+       <p class="copyright">THE INFINITE ODYSSEY.</p>
+
+     </div>
+
+
+
+ </body>
+</html>
