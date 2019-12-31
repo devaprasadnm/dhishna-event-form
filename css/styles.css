@@ -95,7 +95,7 @@ img{
 
 }
 
-<style type="text/css">
+
 #dvPreview
 {
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=image);
@@ -103,7 +103,7 @@ img{
     min-width: 400px;
     display: none;
 }
-</style>
+
 
 
 .twitter:hover
