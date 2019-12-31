@@ -96,15 +96,6 @@ img{
 }
 
 
-#dvPreview
-{
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=image);
-    min-height: 400px;
-    min-width: 400px;
-    display: none;
-}
-
-
 
 .twitter:hover
 {
@@ -128,4 +119,12 @@ img{
 .copyright
 {
   margin-bottom: 0;
+}
+
+#dvPreview
+{
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=image);
+    min-height: 400px;
+    min-width: 400px;
+    display: none;
 }
